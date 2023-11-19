@@ -1,0 +1,25 @@
+@media (max-width: 600px) {
+  html {
+    background-size: 100% 100%;
+  }
+  .block {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+  }
+
+  .block-image {
+    height: 50%;
+    width: 100%;
+    border-bottom: white 1px solid;
+  }
+
+  .block-title {
+    margin-top: 15px;
+  }
+
+  .block-description {
+    margin: 10px 10px;
+  }
+}
